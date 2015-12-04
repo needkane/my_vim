@@ -1,4 +1,3 @@
-
 set background=dark
 colorscheme default
 syntax enable               "启动配色  
@@ -29,7 +28,8 @@ set laststatus=2   " Always show the statusline
 set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors"
 
 "-----编码
-set fileencodings=utf-8
+set encoding=utf-8
+set fileencodings=utf-8,gbk
 set termencoding=utf-8
 set fileformats=unix
 "-----
@@ -91,10 +91,17 @@ Plugin 'Valloric/YouCompleteMe'
 "YouCompletMe 依赖
 Plugin 'Valloric/ListToggle'
 "
-"Plugin 'nicoraffo/conque'
+"Plugin 'vim-scripts/Conque-Shell'
 "
-"Plugin 'nathanaelkane/vim-indent-guides'
-
+"Plugin 'vim-scripts/grep.vim'
+"
+Plugin 'nathanaelkane/vim-indent-guides'
+"
+Plugin 'kien/ctrlp.vim'
+"
+Plugin 'dyng/ctrlsf.vim'
+"
+Plugin 'vim-scripts/BufLine'
 
 
 " All of your Plugins must be added before the following line
