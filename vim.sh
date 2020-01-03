@@ -4,7 +4,7 @@
 [[ -f ~/.vimrc  ]] && mv ~/.vimrc ~/vimrc.bak
 [[ ! -d ~/.vim/bundle ]] && mkdir -p ~/.vim/bundle
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone --depth=10 https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln  -sv `pwd`/vimrc ~/.vimrc
 
 echo -e "Done ! \nPlease  Launch vim and run :PluginInstall"
