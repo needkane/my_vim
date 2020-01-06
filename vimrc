@@ -1,3 +1,4 @@
+set backspace=indent,eol,start
 set background=dark
 colorscheme default
 syntax enable               "启动配色  
